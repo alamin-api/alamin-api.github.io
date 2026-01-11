@@ -492,5 +492,6 @@ function initScrollAnimations() {
     elements.forEach(el => observer.observe(el));
 }
 
+ document.getElementById("year").textContent = new Date().getFullYear();
 // Start scroll animations
 initScrollAnimations();
